@@ -1,5 +1,5 @@
 herbstclient pad 0 30
 
-pkill conky 
+pkill conky
 
-conky -c /home/andrei/.config/conky.conf 
+conky -c /home/andrei/.config/conky.conf
