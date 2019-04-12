@@ -1,6 +1,6 @@
 URxvt*saveLines: 10000
 URxvt*scrollBar: false
-URxvt*font: xft:Fira Code:size=11
+URxvt*font: xft:Source Code Pro:size=12
 
 ! special
 *.foreground:   #d0d0d0
