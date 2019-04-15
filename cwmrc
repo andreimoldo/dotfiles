@@ -1,0 +1,43 @@
+# Config
+borderwidth 2
+
+color activeborder   "#90a959"
+color inactiveborder "#75b5aa"
+color urgencyborder  "#ac4142"
+
+snapdist 10
+moveammount 10
+gap 10 10 10 10
+
+# Commands
+command firefox firefox
+command urxvt   urxvt
+command emacs   "urxvt -e emacs"
+
+# Keybindings
+# -----------
+#
+# General
+bind-key MS-q quit
+bind-key MS-r restart
+bind-key MC-r "rofi -show run"
+bind-key M-Return urxvt
+
+# Window operations
+bind-key MS-c window-delete
+bind-key M-f window-maximize
+bind-key MS-f window-vmaximize
+bind-key MCS-v window-htile
+bind-key MS-v window-vtile
+
+# Groups
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+
