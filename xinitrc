@@ -6,4 +6,6 @@ compton --config /home/andrei/.config/compton.conf &
 
 xrdb -merge .Xresources &
 
-exec herbstluftwm --locked
+#exec herbstluftwm --locked
+exec cwm
+
