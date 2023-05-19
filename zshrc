@@ -93,4 +93,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -alFh"
 
+alias gsp="gcloud compute ssh --project meisterlabs-prod --tunnel-through-iap"
+alias gss="gcloud compute ssh --project meisterlabs-staging --tunnel-through-iap"
+alias gssn="gcloud compute ssh --project meister-note-staging --tunnel-through-iap"
+
 export LC_CTYPE="en_US.UTF-8"
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
